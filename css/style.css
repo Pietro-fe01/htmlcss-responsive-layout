@@ -197,6 +197,44 @@ main .section-four .row{
     flex-wrap: wrap;
 }
 
+/****************
+ MAIN SECTION 4
+****************/
+main .section-five{
+    padding-bottom: 4.6875rem;
+}
+
+main .section-five h2{
+    color: var(--violet-color);
+    font-size: 2.5rem;
+    padding: 5.625rem 0 3.4375rem 0;
+}
+
+main .section-five .description-us p:last-child{
+    margin-top: 2rem;
+}
+
+main .section-five .row{
+    /* flex-wrap: wrap; */
+}
+
+main .section-five .manager-we img{
+    border-radius: 50%;
+    margin-top: 2rem;
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+main .section-five .manager-we p{
+    color: var(--violet-color);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+main .section-five .manager-we .generic-button i{
+    margin-right: .5rem;
+}
+
 /*************
     FOOTER 
 *************/
@@ -243,6 +281,18 @@ main .section-four .row{
     main .section-four .card{
         width: calc(100% / 2 - 1rem);
     }
+    /*MAIN SEZIONE 5 */
+    main .section-five .row-column{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    main .section-five .description-us{
+        max-width: calc(60% - 1.5rem);
+    }
+    main .section-five .manager-we{
+        max-width: calc(40% - 1.5rem);
+        align-self: center;
+    }
 }
 
 /* 992px < vw < oo DESKTOP */
@@ -286,4 +336,5 @@ main .section-four .row{
     main .section-four .card{
         width: calc(100% / 3 - 1rem);
     }
+    
 }
