@@ -153,6 +153,50 @@ main .section-three .card .testimonial-name{
     padding-bottom: 1.875rem;
 }
 
+/****************
+ MAIN SECTION 4
+****************/
+main .section-four{
+    background-color: var(--violet-color);
+    padding-bottom: 1.875rem ;
+}
+
+main .section-four h2{
+    color: var(--white-color);
+    text-align: center;
+    padding: 4.375rem 0;
+}
+
+main .section-four .card{
+    background-color: var(--white-color);
+    width: 100%;
+    margin-bottom: 1.875rem;
+}
+
+main .section-four .benefit-number,
+main .section-four .benefit-name{
+    color: var(--violet-color);
+    font-weight: bold;
+}
+
+main .section-four .card p{
+    padding: 1.25rem 0;
+    letter-spacing: .1rem;
+}
+
+main .section-four .benefit-number{
+    font-size: 2.8125rem;
+    padding-bottom: .9375rem;
+}
+
+main .section-four .benefit-name{
+    font-size: 1.5625rem;
+}
+
+main .section-four .row{
+    flex-wrap: wrap;
+}
+
 /*************
     FOOTER 
 *************/
@@ -192,6 +236,13 @@ main .section-three .card .testimonial-name{
     main .section-three-bottom .card{
         display: flex;
     }
+    /*MAIN SEZIONE 4 */
+    main .section-four .row{
+        justify-content: space-between;
+    }
+    main .section-four .card{
+        width: calc(100% / 2 - 1rem);
+    }
 }
 
 /* 992px < vw < oo DESKTOP */
@@ -230,5 +281,9 @@ main .section-three .card .testimonial-name{
     }
     main .section-two .container.justify-space-between{
         display: flex;
+    }
+    /*MAIN SEZIONE 4 */
+    main .section-four .card{
+        width: calc(100% / 3 - 1rem);
     }
 }

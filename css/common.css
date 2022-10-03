@@ -41,6 +41,14 @@ main .card{
     margin-top: 2.1875rem;
 }
 
+.benefit-button{
+    color: var(--white-color);
+    background-color: var(--violet-color);
+    margin-top: .625rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
 /*************
   FACILITIES 
 *************/
