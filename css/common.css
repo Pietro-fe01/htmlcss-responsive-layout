@@ -13,12 +13,42 @@
 }
 
 /*************
+    BUTTONS 
+*************/
+.generic-button{
+    border: none;
+    border-radius: 1.875rem;
+    padding: .8rem 2.8125rem;
+}
+
+.apple-button{
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 1.1rem;
+    margin-top: 2.1875rem;
+}
+
+/*************
   FACILITIES 
 *************/
 .justify-space-between{
     justify-content: space-between;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
 .align-center{
     align-items: center;
+}
+
+.max-w-100{
+    max-width: 100%;
+}
+
+.block{
+    display: block;
 }

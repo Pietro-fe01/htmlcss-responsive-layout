@@ -1,6 +1,6 @@
 @import url("reset.css");
-@import url("common.css");
 @import url("variables.css");
+@import url("common.css");
 
 /*************
     HEADER 
@@ -33,14 +33,56 @@ header li a{
     text-decoration: none;
 }
 
+/****************
+ MAIN SECTION 1
+****************/
+main .section-one{
+    margin: 3.125rem 0rem 5rem 0rem;
+    flex-wrap: wrap;
+}
 
-/*************
-    MAIN 
-*************/
+main .card{
+    background-color: var(--light-blue-color);
+    padding: 2.8125rem 2rem 0rem 2rem;
+    margin-bottom: 1.7rem;
+    border-radius: 2.25rem;
+    max-width: 100%;
+}
+
+main .card:not(:first-child){
+    text-align: center;
+    padding-bottom: 2.8125rem;
+}
+
+main .card h2{
+    color: var(--dark-blue-color);
+    font-size: 2.3rem;
+}
+
+main .card .icon-card{
+    color: var(--dark-blue-color);
+    font-size: 7rem;
+    margin-bottom: 2.1875rem;
+}
+
+main .card p{
+    color: var(--grey-color);
+    font-weight: bold;
+    margin-top: 2.1875rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+main .card button{
+    margin-bottom: 2.1875rem;
+}
 
 /*************
     FOOTER 
 *************/
+
+
+
 
 /* RESPONSIVE */
 
@@ -51,7 +93,24 @@ header li a{
 
 /* 768px < vw <  991 TABLET */
 @media screen and (min-width: 768px) {
-    
+    .section-one{
+        justify-content: space-between;
+    }
+    main .section-one .card-second-part img{
+        max-width: 65%;
+    }
+    main .card {
+        width: calc(100% / 3 - 1.25rem);
+    }
+    main .card:nth-child(1){
+        width: calc(100% / 3 * 2 - .625rem);
+    }
+    main .card .icon-card{
+        font-size: 5.5rem;
+    }
+    main .card h2{
+        font-size: 1.5rem;
+    }
 }
 
 /* 992px < vw < oo DESKTOP */
@@ -62,5 +121,21 @@ header li a{
 
     header .menu-desktop{
         display: block;
+    }
+    main .card:first-child{
+        display: flex;
+    }
+    main .section-one .card-second-part img{
+        max-width: 100%;
+    }
+    main .section-one .card .card-first-part{
+        max-width: 55%;
+    }
+    main .section-one .card .card-second-part{
+        max-width: 45%;
+        align-self: flex-end;
+    }
+    main .section-one .card p{
+        font-size: 1.5rem;
     }
 }
