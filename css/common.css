@@ -17,6 +17,12 @@
     flex-direction: column;
 }
 
+main .card{
+    padding: 2.8125rem 2rem 2.8125rem 2rem;
+    border-radius: 2.25rem;
+    max-width: 100%;
+}
+
 /*************
     BUTTONS 
 *************/

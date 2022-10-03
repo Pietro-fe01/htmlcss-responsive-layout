@@ -41,31 +41,31 @@ main .section-one{
     flex-wrap: wrap;
 }
 
-main .card{
-    background-color: var(--light-blue-color);
-    padding: 2.8125rem 2rem 0rem 2rem;
+main .section-one .card{
     margin-bottom: 1.7rem;
-    border-radius: 2.25rem;
-    max-width: 100%;
+    background-color: var(--light-blue-color);
 }
 
-main .card:not(:first-child){
+main .section-one .card:first-child{
+    padding-bottom: 0;
+}
+
+main .section-one .card:not(:first-child){
     text-align: center;
-    padding-bottom: 2.8125rem;
 }
 
-main .card h2{
+main .section-one .card h2{
     color: var(--dark-blue-color);
     font-size: 2.3rem;
 }
 
-main .card .icon-card{
+main .section-one .card .icon-card{
     color: var(--dark-blue-color);
     font-size: 7rem;
     margin-bottom: 2.1875rem;
 }
 
-main .card p{
+main .section-one .card p{
     color: var(--grey-color);
     font-weight: bold;
     margin-top: 2.1875rem;
@@ -73,7 +73,7 @@ main .card p{
     line-height: 1.5rem;
 }
 
-main .card button{
+main .section-one .card button{
     margin-bottom: 2.1875rem;
 }
 
@@ -112,6 +112,47 @@ main .section-two .app-devel .arrow-down-icon i{
     background-color: var(--violet-color);
 }
 
+/****************
+ MAIN SECTION 3
+****************/
+main .section-three{
+    margin: 3.75rem auto 6.25rem auto;
+}
+
+main .section-three .section-three-top{
+    text-align: center;
+}
+
+main .section-three .section-three-top h2{
+    color: var(--violet-color);
+    padding: 2.5rem 0;
+    font-size: 2.7rem;
+}
+
+main .section-three .section-three-top p{
+    padding-bottom: 3.125rem;
+}
+
+main .section-three-bottom .card{
+    background-color: var(--violet-color);
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 1.875rem;
+    width: 100%;
+}
+
+main .section-three .section-three-bottom .testimonial-img img{
+    border-radius: 50%;
+}
+
+main .section-three .card .testimonial-name{
+    display: block;
+    margin-top: 1.875rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1.875rem;
+}
+
 /*************
     FOOTER 
 *************/
@@ -128,23 +169,28 @@ main .section-two .app-devel .arrow-down-icon i{
 
 /* 768px < vw <  991 TABLET */
 @media screen and (min-width: 768px) {
+    /*MAIN SEZIONE 1 */
     .section-one{
         justify-content: space-between;
     }
     main .section-one .card-second-part img{
         max-width: 65%;
     }
-    main .card {
+    main .section-one .card {
         width: calc(100% / 3 - 1.25rem);
     }
-    main .card:nth-child(1){
+    main .section-one .card:nth-child(1){
         width: calc(100% / 3 * 2 - .625rem);
     }
-    main .card .icon-card{
+    main .section-one .card .icon-card{
         font-size: 5.5rem;
     }
-    main .card h2{
+    main .section-one .card h2{
         font-size: 1.5rem;
+    }
+    /*MAIN SEZIONE 3 */
+    main .section-three-bottom .card{
+        display: flex;
     }
 }
 
@@ -158,7 +204,7 @@ main .section-two .app-devel .arrow-down-icon i{
         display: block;
     }
     /*MAIN SEZIONE 1 */
-    main .card:first-child{
+    main .section-one .card:first-child{
         display: flex;
     }
     main .section-one .card-second-part img{
