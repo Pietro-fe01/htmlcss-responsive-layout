@@ -12,6 +12,11 @@
     display: flex;
 }
 
+.row-column, .col-column {
+    display: flex;
+    flex-direction: column;
+}
+
 /*************
     BUTTONS 
 *************/

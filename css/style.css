@@ -37,7 +37,7 @@ header li a{
  MAIN SECTION 1
 ****************/
 main .section-one{
-    margin: 3.125rem 0rem 5rem 0rem;
+    margin: 3.125rem auto 5rem auto;
     flex-wrap: wrap;
 }
 
@@ -75,6 +75,41 @@ main .card p{
 
 main .card button{
     margin-bottom: 2.1875rem;
+}
+
+/****************
+ MAIN SECTION 2
+****************/
+main .section-two{
+    background-color: var(--violet-color);
+    padding: 3.75rem 0;
+}
+
+main .section-two .strateg-planner{
+    color: var(--white-color);
+}
+
+main .section-two .strateg-planner h2{
+    margin: 3.125rem 0rem;
+}
+
+main .section-two .app-devel h2{
+    margin: 1.875rem 0;
+}
+
+main .section-two .app-devel{
+    background-color: var(--white-color);
+    border-radius: 2.25rem;
+    margin: 2.1875rem 0 0 0;
+    text-align: center;
+    padding: 1.875rem 3.125rem;
+}
+
+main .section-two .app-devel .arrow-down-icon i{
+    margin-top: 2.5rem;
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    background-color: var(--violet-color);
 }
 
 /*************
@@ -122,6 +157,7 @@ main .card button{
     header .menu-desktop{
         display: block;
     }
+    /*MAIN SEZIONE 1 */
     main .card:first-child{
         display: flex;
     }
@@ -137,5 +173,16 @@ main .card button{
     }
     main .section-one .card p{
         font-size: 1.5rem;
+    }
+    /*MAIN SEZIONE 2 */
+    main .section-two .app-devel{
+        align-self: flex-end;
+        max-width: calc(40% - .9375rem);
+    }
+    main .section-two .strateg-planner{ 
+        max-width: calc(60% - .9375rem);
+    }
+    main .section-two .container.justify-space-between{
+        display: flex;
     }
 }
