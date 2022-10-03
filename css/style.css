@@ -1,9 +1,38 @@
 @import url("reset.css");
 @import url("common.css");
+@import url("variables.css");
 
 /*************
     HEADER 
 *************/
+header {
+    background-color: var(--dark-blue-color);
+    padding: 1.5625rem 0rem;
+}
+
+header .menu-mob-tab,
+header .menu-desktop,
+header li a{
+    color: var(--white-color);
+}
+
+header .menu-mob-tab{
+    font-size: 2rem;
+}
+
+header .menu-desktop{
+    display: none;
+}
+
+header li{
+    list-style: none;
+    padding-left: 2rem;
+}
+
+header li a{
+    text-decoration: none;
+}
+
 
 /*************
     MAIN 
@@ -13,4 +42,25 @@
     FOOTER 
 *************/
 
-@import url("responsive.css");
+/* RESPONSIVE */
+
+/* 0px < vw < 767 MOBILE */
+@media screen and (min-width: 540px){
+    
+}
+
+/* 768px < vw <  991 TABLET */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* 992px < vw < oo DESKTOP */
+@media screen and (min-width: 992px) {
+    header .menu-mob-tab{
+        display: none;
+    }
+
+    header .menu-desktop{
+        display: block;
+    }
+}

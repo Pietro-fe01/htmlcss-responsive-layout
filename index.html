@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Layout</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header></header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Layout</title>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container row justify-space-between align-center">
+                <!-- Logo -->
+                <nav class="col logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo-main">
+                    </a>
+                </nav>
+                <!-- /Logo -->
 
-    <main></main>
+                <!-- Menù visibile da mobile e tablet -->
+                <nav class="col menu-mob-tab">
+                    <i class="fa-solid fa-bars"></i>
+                </nav>
+                <!-- /Menu visibile da mobile e tablet -->
 
-    <footer></footer>
-</body>
+                <!-- Menu visibile solo da desktop -->
+                <nav class="col menu-desktop">
+                    <ul class="row">
+                        <li><a href="#">Planning</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a id="get-started" href="#">Get Started</a></li>
+                    </ul>
+                </nav>
+                <!-- /Menu visibile solo da desktop -->
+            </div>
+        </header>
+
+        <main></main>
+
+        <footer></footer>
+    </body>
 </html>
