@@ -75,6 +75,10 @@ main .card{
     max-width: 100%;
 }
 
+.w-80{
+    width: 80%;
+}
+
 .block{
     display: block;
 }
