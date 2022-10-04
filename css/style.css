@@ -1,6 +1,7 @@
 @import url("reset.css");
 @import url("variables.css");
 @import url("common.css");
+@import url("buttons.css");
 @import url("header.css");
 @import url("main.css");
 @import url("footer.css");
@@ -12,99 +13,4 @@
 /* 0px < vw < 767 MOBILE */
 @media screen and (min-width: 540px){
     
-}
-
-/* 768px < vw <  991 TABLET */
-@media screen and (min-width: 768px) {
-    /*MAIN SEZIONE 1 */
-    .section-one{
-        justify-content: space-between;
-    }
-    main .section-one .card-second-part img{
-        max-width: 65%;
-    }
-    main .section-one .card {
-        width: calc(100% / 3 - 1.25rem);
-    }
-    main .section-one .card:nth-child(1){
-        width: calc(100% / 3 * 2 - .625rem);
-    }
-    main .section-one .card .icon-card{
-        font-size: 5.5rem;
-    }
-    main .section-one .card h2{
-        font-size: 1.5rem;
-    }
-    /*MAIN SEZIONE 3 */
-    main .section-three-bottom .card{
-        display: flex;
-    }
-    /*MAIN SEZIONE 4 */
-    main .section-four .row{
-        justify-content: space-between;
-    }
-    main .section-four .card{
-        width: calc(100% / 2 - 1rem);
-    }
-    /*MAIN SEZIONE 5 */
-    main .section-five .row-column{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    main .section-five .description-us{
-        max-width: calc(60% - 1.5rem);
-    }
-    main .section-five .manager-we{
-        max-width: calc(40% - 1.5rem);
-        align-self: center;
-    }
-    footer div.w-80{
-        width: 60%;
-    }
-}
-
-/* 992px < vw < oo DESKTOP */
-@media screen and (min-width: 992px) {
-    header .menu-mob-tab{
-        display: none;
-    }
-
-    header .menu-desktop{
-        display: block;
-    }
-    /*MAIN SEZIONE 1 */
-    main .section-one .card:first-child{
-        display: flex;
-    }
-    main .section-one .card-second-part img{
-        max-width: 100%;
-    }
-    main .section-one .card .card-first-part{
-        max-width: 55%;
-    }
-    main .section-one .card .card-second-part{
-        max-width: 45%;
-        align-self: flex-end;
-    }
-    main .section-one .card p{
-        font-size: 1.5rem;
-    }
-    /*MAIN SEZIONE 2 */
-    main .section-two .app-devel{
-        align-self: flex-end;
-        max-width: calc(40% - .9375rem);
-    }
-    main .section-two .strateg-planner{ 
-        max-width: calc(60% - .9375rem);
-    }
-    main .section-two .container.justify-space-between{
-        display: flex;
-    }
-    /*MAIN SEZIONE 4 */
-    main .section-four .card{
-        width: calc(100% / 3 - 1rem);
-    }
-    footer div.w-80{
-        width: 50%;
-    }
 }

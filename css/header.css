@@ -28,3 +28,14 @@ header li{
 header li a{
     text-decoration: none;
 }
+
+/* 992px < vw < oo DESKTOP */
+@media screen and (min-width: 992px) {
+    header .menu-mob-tab{
+        display: none;
+    }
+
+    header .menu-desktop{
+        display: block;
+    }
+}

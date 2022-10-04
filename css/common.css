@@ -27,32 +27,6 @@ main .card{
 }
 
 /*************
-    BUTTONS 
-*************/
-.generic-button{
-    border: none;
-    border-radius: 1.875rem;
-    padding: .8rem 2.8125rem;
-}
-
-.apple-button{
-    background-color: var(--dark-blue-color);
-    color: var(--white-color);
-    font-weight: bold;
-    letter-spacing: .1rem;
-    font-size: 1.1rem;
-    margin-top: 2.1875rem;
-}
-
-.benefit-button{
-    color: var(--white-color);
-    background-color: var(--violet-color);
-    margin-top: .625rem;
-    display: inline-block;
-    text-decoration: none;
-}
-
-/*************
   FACILITIES 
 *************/
 .justify-space-between{
