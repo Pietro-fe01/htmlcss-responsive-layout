@@ -1,0 +1,218 @@
+/****************
+ MAIN SECTION 1
+****************/
+main .section-one{
+    margin: 3.125rem auto 5rem auto;
+    flex-wrap: wrap;
+}
+
+main .section-one .card{
+    margin-bottom: 1.7rem;
+    background-color: var(--light-blue-color);
+}
+
+main .section-one .card:first-child{
+    padding-bottom: 0;
+}
+
+main .section-one .card:not(:first-child){
+    text-align: center;
+}
+
+main .section-one .card h2{
+    color: var(--dark-blue-color);
+    font-size: 2.3rem;
+}
+
+main .section-one .card .icon-card{
+    color: var(--dark-blue-color);
+    font-size: 7rem;
+    margin-bottom: 2.1875rem;
+}
+
+main .section-one .card p{
+    color: var(--grey-color);
+    font-weight: bold;
+    margin-top: 2.1875rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+main .section-one .card button{
+    margin-bottom: 2.1875rem;
+}
+
+/****************
+ MAIN SECTION 2
+****************/
+main .section-two{
+    background-color: var(--violet-color);
+    padding: 3.75rem 0;
+}
+
+main .section-two .strateg-planner{
+    color: var(--white-color);
+}
+
+main .section-two .strateg-planner h2{
+    margin: 3.125rem 0rem;
+}
+
+main .section-two .app-devel h2{
+    margin: 1.875rem 0;
+}
+
+main .section-two .app-devel{
+    background-color: var(--white-color);
+    border-radius: 2.25rem;
+    margin: 2.1875rem 0 0 0;
+    text-align: center;
+    padding: 1.875rem 3.125rem;
+}
+
+main .section-two .app-devel .arrow-down-icon i{
+    margin-top: 2.5rem;
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    background-color: var(--violet-color);
+}
+
+/****************
+ MAIN SECTION 3
+****************/
+main .section-three{
+    margin: 3.75rem auto 6.25rem auto;
+}
+
+main .section-three .section-three-top{
+    text-align: center;
+}
+
+main .section-three .section-three-top h2{
+    color: var(--violet-color);
+    padding: 2.5rem 0;
+    font-size: 2.7rem;
+}
+
+main .section-three .section-three-top p{
+    padding-bottom: 3.125rem;
+}
+
+main .section-three-bottom .card{
+    background-color: var(--violet-color);
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 1.875rem;
+    width: 100%;
+}
+
+main .section-three .section-three-bottom .testimonial-img img{
+    border-radius: 50%;
+}
+
+main .section-three .card .testimonial-name{
+    display: block;
+    margin-top: 1.875rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1.875rem;
+}
+
+/****************
+ MAIN SECTION 4
+****************/
+main .section-four{
+    background-color: var(--violet-color);
+    padding-bottom: 1.875rem ;
+}
+
+main .section-four h2{
+    color: var(--white-color);
+    text-align: center;
+    padding: 4.375rem 0;
+}
+
+main .section-four .card{
+    background-color: var(--white-color);
+    width: 100%;
+    margin-bottom: 1.875rem;
+}
+
+main .section-four .benefit-number,
+main .section-four .benefit-name{
+    color: var(--violet-color);
+    font-weight: bold;
+}
+
+main .section-four .card p{
+    padding: 1.25rem 0;
+    letter-spacing: .1rem;
+}
+
+main .section-four .benefit-number{
+    font-size: 2.8125rem;
+    padding-bottom: .9375rem;
+}
+
+main .section-four .benefit-name{
+    font-size: 1.5625rem;
+}
+
+main .section-four .row{
+    flex-wrap: wrap;
+}
+
+/****************
+ MAIN SECTION 5
+****************/
+main .section-five{
+    padding-bottom: 4.6875rem;
+}
+
+main .section-five h2{
+    color: var(--violet-color);
+    font-size: 2.5rem;
+    padding: 5.625rem 0 3.4375rem 0;
+}
+
+main .section-five .description-us p:last-child{
+    margin-top: 2rem;
+}
+
+main .section-five .row{
+    /* flex-wrap: wrap; */
+}
+
+main .section-five .manager-we img{
+    border-radius: 50%;
+    margin-top: 2rem;
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+main .section-five .manager-we p{
+    color: var(--violet-color);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+main .section-five .manager-we .generic-button i{
+    margin-right: .5rem;
+}
+
+/****************
+ MAIN SECTION 6
+****************/
+.section-six{
+    background-color: var(--violet-color);
+    padding: 3.75rem 0;
+    color: var(--white-color);
+}
+
+.section-six #copyright{
+    display: block;
+}
+
+.section-six #copyright #copyright-privacy{
+    text-decoration: underline;
+}

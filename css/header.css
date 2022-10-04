@@ -1,0 +1,30 @@
+/*************
+    HEADER 
+*************/
+header {
+    background-color: var(--dark-blue-color);
+    padding: 1.5625rem 0rem;
+}
+
+header .menu-mob-tab,
+header .menu-desktop,
+header li a{
+    color: var(--white-color);
+}
+
+header .menu-mob-tab{
+    font-size: 2rem;
+}
+
+header .menu-desktop{
+    display: none;
+}
+
+header li{
+    list-style: none;
+    padding-left: 2rem;
+}
+
+header li a{
+    text-decoration: none;
+}
