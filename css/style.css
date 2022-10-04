@@ -7,15 +7,12 @@
 @import url("footer.css");
 
 
-
-/* RESPONSIVE */
-
-/* 0px < vw < 767 MOBILE */
-@media screen and (min-width: 540px){
-    
+button:hover, a:hover{
+    text-decoration: underline;
 }
 
-.header .logo .col {
-    justify-content: center;
-    align-items: center;
+.section-six #copyright-privacy:hover{
+    color: grey;
+    cursor: pointer;
 }
+

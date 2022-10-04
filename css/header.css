@@ -4,6 +4,9 @@
 header {
     background-color: var(--dark-blue-color);
     padding: 1.5625rem 0rem;
+    position: sticky;
+    top: 0;
+    box-shadow: -1px 0px 15px 1px #000000;
 }
 
 header .menu-mob-tab,
