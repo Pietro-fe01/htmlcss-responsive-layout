@@ -33,6 +33,10 @@ main .card{
     justify-content: space-between;
 }
 
+.justify-space-evenly{
+    justify-content: space-evenly;
+}
+
 .justify-center{
     justify-content: center;
 }
@@ -45,12 +49,24 @@ main .card{
     text-align: center;
 }
 
+position-relative{
+    position: relative;
+}
+
 .max-w-100{
     max-width: 100%;
 }
 
+.max-w-90{
+    max-width: 90%;
+}
+
 .w-80{
     width: 80%;
+}
+
+.w-70{
+    width: 70%;
 }
 
 .block{

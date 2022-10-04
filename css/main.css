@@ -82,6 +82,9 @@ main .section-one .card button{
     main .section-one .card p{
         font-size: 1.5rem;
     }
+    .apple-button{
+        width: 80%;
+    }
 }
 
 /****************
@@ -98,6 +101,7 @@ main .section-two .strateg-planner{
 
 main .section-two .strateg-planner h2{
     margin: 3.125rem 0rem;
+    font-size: 2.5rem;
 }
 
 main .section-two .app-devel h2{
@@ -121,15 +125,23 @@ main .section-two .app-devel .arrow-down-icon i{
 
 /* 992px < vw < oo DESKTOP */
 @media screen and (min-width: 992px) {
+    main .section-two div.justify-space-evenly{
+        display: flex;
+    }
+    main .section-two .strateg-planner{ 
+        max-width: calc(45% - .9375rem);
+    }
     main .section-two .app-devel{
         align-self: flex-end;
         max-width: calc(40% - .9375rem);
     }
-    main .section-two .strateg-planner{ 
-        max-width: calc(60% - .9375rem);
+    main .section-two .strateg-planner img{
+        width: 90%;
+        margin-bottom: 2rem;
     }
-    main .section-two .container.justify-space-between{
-        display: flex;
+    main .section-two .app-devel img{
+        max-width: 75%;
+        align-self: center;
     }
 }
 
@@ -152,6 +164,9 @@ main .section-three .section-three-top h2{
 
 main .section-three .section-three-top p{
     padding-bottom: 3.125rem;
+    width: 85%;
+    margin: auto;
+    line-height: 25px;
 }
 
 main .section-three-bottom .card{
@@ -162,22 +177,38 @@ main .section-three-bottom .card{
     width: 100%;
 }
 
-main .section-three .section-three-bottom .testimonial-img img{
+main .section-three-bottom .testimonial-img img{
     border-radius: 50%;
+    width: 15.625rem;
+    height: 15.625rem;
+    object-fit: cover;
 }
 
 main .section-three .card .testimonial-name{
     display: block;
-    margin-top: 1.875rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
-    padding-bottom: 1.875rem;
+}
+
+main .section-three-bottom .quotes-icon{
+    font-size: 1.5625rem;
+}
+
+main .section-three-bottom .testimonial-sentence p{
+    padding: 1.5rem 0 1.875rem 0;
 }
 
 /* 768px < vw <  991 TABLET */
 @media screen and (min-width: 768px) {
     main .section-three-bottom .card{
         display: flex;
+    }
+    main .section-three-bottom .card{
+        text-align: left;
+        align-items: center;
+    }
+    main .section-three-bottom .testimonial-img img{
+        margin-right: 1.5625rem;
     }
 }
 
@@ -191,8 +222,8 @@ main .section-four{
 
 main .section-four h2{
     color: var(--white-color);
-    text-align: center;
     padding: 4.375rem 0;
+    font-size: 2.5rem;
 }
 
 main .section-four .card{
@@ -255,20 +286,24 @@ main .section-five{
 main .section-five h2{
     color: var(--violet-color);
     font-size: 2.5rem;
-    padding: 5.625rem 0 3.4375rem 0;
+    padding: 5.625rem 0 2.4375rem 0;
 }
 
 main .section-five .description-us p:last-child{
     margin-top: 2rem;
 }
 
-main .section-five .row{
-    /* flex-wrap: wrap; */
+main .section-five .manager-we .img-icon i{
+    position: relative;
+    bottom: 160px;
+    left: -55px;
+    font-size: 4.375rem;
+    color: var(--violet-color);
 }
 
 main .section-five .manager-we img{
     border-radius: 50%;
-    margin-top: 2rem;
+    margin: 3rem 0 1rem 0;
     width: 12.5rem;
     height: 12.5rem;
 }
@@ -291,10 +326,7 @@ main .section-five .manager-we .generic-button i{
     }
     main .section-five .description-us{
         max-width: calc(60% - 1.5rem);
-    }
-    main .section-five .manager-we{
-        max-width: calc(40% - 1.5rem);
-        align-self: center;
+        margin-right: 2rem;
     }
     footer div.w-80{
         width: 60%;
@@ -311,9 +343,36 @@ main .section-five .manager-we .generic-button i{
 }
 
 .section-six #copyright{
-    display: block;
+    padding-top: 1.3rem;
 }
 
 .section-six #copyright #copyright-privacy{
     text-decoration: underline;
+}
+
+.section-six h4{
+    color: var(--violet-color-light);
+}
+
+.section-six h3{
+    color: var(--yellow-color);
+    font-size: 2.875rem;
+}
+
+.section-six h2, .section-six p{
+    padding: 1.3rem 0;
+}
+
+/* 768px < vw <  991 TABLET */
+@media screen and (min-width: 768px) {
+    .section-six h3{
+        font-size: 3.5rem;
+    }
+    
+    .section-six h2{
+        font-size: 1.875rem;
+    }
+    .section-six #copyright{
+        font-size: 1rem;
+    }
 }

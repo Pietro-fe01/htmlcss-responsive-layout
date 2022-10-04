@@ -20,7 +20,7 @@
             <div class="container row justify-space-between align-center">
                 <!-- Logo -->
                 <nav class="col logo">
-                    <a href="#">
+                    <a href="#" class="col">
                         <img src="img/logo.png" alt="logo-main">
                     </a>
                 </nav>
@@ -39,7 +39,7 @@
                         <li><a href="#">Testimonials</a></li>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">About Us</a></li>
-                        <li><a id="get-started" href="#">Get Started</a></li>
+                        <li><a class="generic-button get-started-button" href="#">Get Started</a></li>
                     </ul>
                 </nav>
                 <!-- /Menu visibile solo da desktop -->
@@ -55,7 +55,7 @@
                     <div class="card-first-part">
                         <h2>Get a demo application</h2>
                         <P>Lorem ipsum dolor sit amet consectetaur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</P>
-                        <button class="generic-button apple-button"><i class="fa-brands fa-apple"></i> App Store</button>
+                        <button class="generic-button apple-button w-70"><i class="fa-brands fa-apple"></i> App Store</button>
                     </div>
                     <div class="card-second-part">
                         <img class="max-w-100 block" src="img/phone.png" alt="phone">
@@ -99,9 +99,9 @@
 
             <!-- Strategic planner - section 2 -->
             <section class="section-two">
-                <div class="container justify-space-between">
+                <div class="container justify-space-evenly">
                     <div class="row-column strateg-planner">
-                        <img class="max-w-100" src="img/planning1.png" alt="planning-one">
+                        <img class="max-w-90" src="img/planning1.png" alt="planning-one">
                         <h2>Strategic Planning</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, alias incidunt dolor id autem minus delectus reiciendis fuga qui non voluptatibus doloribus fugiat eligendi vel quod necessitatibus assumenda suscipit nemo?</p>
                     </div>
@@ -110,7 +110,7 @@
                         <h2>App Developement</h2>
                         <p>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</p>
                         <div class="arrow-down-icon">
-                            <i class="fa-solid fa-arrow-down-long"></i>
+                            <button class="generic-button"><i class="fa-solid fa-arrow-down-long"></i></button>
                         </div>
                     </div>
                 </div>
@@ -132,10 +132,10 @@
                     <!-- testimonial card 1 -->
                     <div class="card">
                         <div class="testimonial-img">
-                            <img class="max-w-100" src="img/testimonial1.jpg" alt="">
+                            <img src="img/testimonial1.jpg" alt="">
                         </div>
                         <div class="testimonial-sentence">
-                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores animi doloremque libero consectetur hic veniam magni numquam, corporis asperiores rerum obcaecati, saepe adipisci. At saepe veniam modi repellendus tenetur?"</p>
+                            <p><i class="quotes-icon fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores animi doloremque libero consectetur hic veniam magni numquam, corporis asperiores rerum obcaecati, saepe adipisci. At saepe veniam modi repellendus tenetur <i class="quotes-icon fa-solid fa-quote-right"></i></p>
                             <span class="testimonial-name">NAT REYNOLDS</span>
                         </div>
                     </div>
@@ -144,10 +144,10 @@
                     <!-- testimonial card 2 -->
                     <div class="card">
                         <div class="testimonial-img">
-                            <img class="max-w-100" src="img/testimonial2.jpg" alt="">
+                            <img src="img/testimonial2.jpg" alt="">
                         </div>
                         <div class="testimonial-sentence">
-                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores animi doloremque libero consectetur hic veniam magni numquam, corporis asperiores rerum obcaecati, saepe adipisci. At saepe veniam modi repellendus tenetur?"</p>
+                            <p><i class="quotes-icon fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores animi doloremque libero consectetur hic veniam magni numquam, corporis asperiores rerum obcaecati, saepe adipisci. At saepe veniam modi repellendus tenetur <i class="quotes-icon fa-solid fa-quote-right"></i></p>
                             <span class="testimonial-name">CELIA ALMEDA</span>
                         </div>
                     </div>
@@ -156,10 +156,10 @@
                     <!-- testimonial card 3 -->
                     <div class="card">
                         <div class="testimonial-img">
-                            <img class="max-w-100" src="img/testimonial3.jpg" alt="">
+                            <img src="img/testimonial3.jpg" alt="">
                         </div>
                         <div class="testimonial-sentence">
-                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores animi doloremque libero consectetur hic veniam magni numquam, corporis asperiores rerum obcaecati, saepe adipisci. At saepe veniam modi repellendus tenetur?"</p>
+                            <p><i class="quotes-icon fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores animi doloremque libero consectetur hic veniam magni numquam, corporis asperiores rerum obcaecati, saepe adipisci. At saepe veniam modi repellendus tenetur <i class="quotes-icon fa-solid fa-quote-right"></i></p>
                             <span class="testimonial-name">BOB ROBERTS</span>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
 
             <!-- Benefits of working with us - section 4 -->
             <section class="section-four">
-                <h2>Benefits of working with us</h2>
+                <h2 class="text-center">Benefits of working with us</h2>
                 <!-- List of benefits -->
                 <div class="container row">
                     <!-- Benefit number 1 -->
@@ -237,11 +237,14 @@
                 <div class="row-column">
                     <div class="description-us">
                         <h2>About us</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum doloribus aut facilis animi soluta qui commodi blanditiis, quis eaque, earum non! Tenetur deleniti repellendus excepturi expedita placeat obcaecati ipsum earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora iste nam obcaecati sunt officia architecto ipsa magni quas illum. Quisquam neque saepe vero dolorem laudantium. Corporis distinctio ab enim Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloribus aspernatur ipsum repudiandae earum mollitia, magni sequi quibusdam assumenda ea maiores dolor vero ipsa modi magnam quod eveniet voluptatem obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat totam temporibus possimus deserunt, sunt deleniti quidem nesciunt ipsum voluptatem odit quas asperiores exercitationem quaerat illo quo similique eveniet distinctio..</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sunt voluptatum odio aspernatur eligendi quas, facere totam perspiciatis deleniti incidunt libero quam placeat non magni doloremque. Ut vitae aliquid corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, nostrum nihil est quaerat error tempore ullam sit ipsum voluptatum laboriosam corporis voluptatibus, impedit veniam aspernatur vero cumque nesciunt. Aliquid, magni!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed quae autem eos saepe dicta ut porro, veritatis ipsum labore delectus optio obcaecati ab architecto iure corporis odio soluta quo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, ab magnam libero dolore enim repudiandae fugit excepturi quia soluta ad voluptatibus odio accusantium, incidunt magni molestias omnis quibusdam unde id?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nulla quasi dolore. Amet placeat eum non dolorum aliquam officia architecto quam modi eaque tempora fugit inventore ipsum optio, commodi explicabo.</p>
                     </div>
                     <div class="manager-we">
-                        <img class="max-w-100" src="img/about.jpg" alt="">
+                        <div class="img-icon">
+                            <img class="max-w-100" src="img/about.jpg" alt="">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
                         <p>I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</p>
                         <a href="#" class="generic-button benefit-button">
                             <i class="fa-brands fa-linkedin"></i>Find me on Linkedin
@@ -256,10 +259,10 @@
                 <div class="container text-center">
                     <h4>GET STARTED</h4>
                     <h2>Simple, Transparent Pricing</h2>
-                    <h3>It's Free</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button>Get Started</button>
-                    <small id="copyright">Copyright 2022 Boolean &middot; Classe 76 &middot; <span id="copyright-privacy">Privacy policy</span></small>
+                    <h3>It's Free!</h3>
+                    <p>We're still in beta and we will be for awhile.<br> As we add more functionality, we'll look into other plans with more controls.</p>
+                    <button class="generic-button button-started-main">Get Started</button>
+                    <small class="block" id="copyright">Copyright 2022 Boolean &middot; Classe 76 &middot; <span id="copyright-privacy">Privacy policy</span></small>
                 </div>
             </section>
             <!-- /Get started - section 6 -->

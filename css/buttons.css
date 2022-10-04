@@ -4,7 +4,15 @@
 .generic-button{
     border: none;
     border-radius: 1.875rem;
-    padding: .8rem 2.8125rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.get-started-button{
+    color: black;
+    background-color: var(--white-color);
+    padding: .5rem .9375rem;
+    font-weight: 600;
 }
 
 .apple-button{
@@ -12,14 +20,25 @@
     color: var(--white-color);
     font-weight: bold;
     letter-spacing: .1rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-top: 2.1875rem;
+    padding: .8rem 2.8125rem;
 }
 
 .benefit-button{
     color: var(--white-color);
     background-color: var(--violet-color);
-    margin-top: .625rem;
+    margin-top: 2rem;
     display: inline-block;
     text-decoration: none;
+    padding: .8rem 2.8125rem;
+}
+
+.button-started-main{
+    color: var(--violet-color);
+    background-color: var(--white-color);
+    padding: 1.1rem 3.75rem;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: .125rem;
 }

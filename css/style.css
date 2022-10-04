@@ -14,3 +14,8 @@
 @media screen and (min-width: 540px){
     
 }
+
+.header .logo .col {
+    justify-content: center;
+    align-items: center;
+}
