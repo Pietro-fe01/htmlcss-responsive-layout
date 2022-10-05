@@ -1,0 +1,8 @@
+button:hover, a:hover{
+    text-decoration: underline;
+}
+
+.section-six #copyright-privacy:hover{
+    color: grey;
+    cursor: pointer;
+}

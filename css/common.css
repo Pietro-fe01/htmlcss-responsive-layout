@@ -27,7 +27,7 @@ main .card{
 }
 
 /*************
-  FACILITIES 
+    FLEX
 *************/
 .justify-space-between{
     justify-content: space-between;
@@ -45,14 +45,24 @@ main .card{
     align-items: center;
 }
 
+/*************
+    TEXT
+*************/
 .text-center{
     text-align: center;
 }
 
-position-relative{
-    position: relative;
+.text-dec-none{
+    text-decoration: none;
 }
 
+.list-style-none{
+    list-style: none;
+}
+
+/*************
+    WIDTH
+*************/
 .max-w-100{
     max-width: 100%;
 }
@@ -69,6 +79,13 @@ position-relative{
     width: 70%;
 }
 
+/*************
+   DISPLAY
+*************/
 .block{
     display: block;
+}
+
+.display-none{
+    display: none;
 }

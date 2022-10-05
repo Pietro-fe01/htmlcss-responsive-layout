@@ -9,27 +9,22 @@ header {
     box-shadow: -1px 0px 15px 1px #000000;
 }
 
-header .menu-mob-tab,
-header .menu-desktop,
-header li a{
+header *{
     color: var(--white-color);
+}
+
+/* Ho usato questo comando perchè il logo risultava
+un pochino decentrata */
+header .logo{
+    transform: translate(1px, 5px);
 }
 
 header .menu-mob-tab{
     font-size: 2rem;
 }
 
-header .menu-desktop{
-    display: none;
-}
-
 header li{
-    list-style: none;
     padding-left: 2rem;
-}
-
-header li a{
-    text-decoration: none;
 }
 
 /* 992px < vw < oo DESKTOP */
