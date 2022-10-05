@@ -6,6 +6,7 @@
     border-radius: 1.875rem;
     background-color: transparent;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .get-started-button{
